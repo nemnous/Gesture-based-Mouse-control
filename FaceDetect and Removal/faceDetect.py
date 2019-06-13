@@ -8,7 +8,7 @@ cap = cv2.VideoCapture(0)
 # lower = np.array([0, 48, 80], dtype = "uint8")
 # upper = np.array([20, 255, 255], dtype = "uint8")
 
-
+#added
 while(True):
     ret, img = cap.read()
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
